@@ -1,8 +1,9 @@
 {
-  "name": " ",
+  "name": "shaunwu.dev",
   "theme": "#50c8f8",
   "logo": "/assets/logo.png",
   "logoDark": "/assets/logo-dark-bg.png",
+  "automaticallyDisplayName": false,
   "sidebar": [
     [
       "Home",
