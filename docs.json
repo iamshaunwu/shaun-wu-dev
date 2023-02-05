@@ -24,12 +24,12 @@
         "/functional-widget"
       ],
       [
-        "Riverpod",
-        "/riverpod"
-      ],
-      [
         "Freezed",
         "/freezed"
+      ],
+      [
+        "Riverpod",
+        "/riverpod"
       ],
       [
         "Flutter Hooks",
@@ -55,12 +55,12 @@
         "/zh-Hans/functional-widget"
       ],
       [
-        "Riverpod",
-        "/zh-Hans/riverpod"
-      ],
-      [
         "Freezed",
         "/zh-Hans/freezed"
+      ],
+      [
+        "Riverpod",
+        "/zh-Hans/riverpod"
       ],
       [
         "Flutter Hooks",
