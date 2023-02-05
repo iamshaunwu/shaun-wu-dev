@@ -4,35 +4,68 @@
   "logo": "/assets/logo.png",
   "logoDark": "/assets/logo-dark-bg.png",
   "automaticallyDisplayName": false,
-  "sidebar": [
-    [
-      "Getting Started",
+  "sidebar": {
+    "en": [
       [
+        "Getting Started",
         [
-          "Overview",
-          "/"
-        ],
-        [
-          "Setup",
-          "/setup"
+          [
+            "Overview",
+            "/"
+          ],
+          [
+            "Setup",
+            "/setup"
+          ]
         ]
+      ],
+      [
+        "Functional Widget",
+        "/functional-widget"
+      ],
+      [
+        "Riverpod",
+        "/riverpod"
+      ],
+      [
+        "Freezed",
+        "/freezed"
+      ],
+      [
+        "Flutter Hooks",
+        "/flutter-hooks"
       ]
     ],
-    [
-      "Functional Widget",
-      "/functional-widget"
-    ],
-    [
-      "Riverpod",
-      "/riverpod"
-    ],
-    [
-      "Freezed",
-      "/freezed"
-    ],
-    [
-      "Flutter Hooks",
-      "/flutter-hooks"
+    "zh-Hans": [
+      [
+        "开始上手",
+        [
+          [
+            "概览",
+            "/zh-Hans/"
+          ],
+          [
+            "安装",
+            "/zh-Hans/setup"
+          ]
+        ]
+      ],
+      [
+        "Functional Widget",
+        "/zh-Hans/functional-widget"
+      ],
+      [
+        "Riverpod",
+        "/zh-Hans/riverpod"
+      ],
+      [
+        "Freezed",
+        "/zh-Hans/freezed"
+      ],
+      [
+        "Flutter Hooks",
+        "/zh-Hans/flutter-hooks"
+      ]
     ]
-  ]
+  }
 }
