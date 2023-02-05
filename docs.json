@@ -42,29 +42,29 @@
         [
           [
             "概览",
-            "/zh-Hans/"
+            "/"
           ],
           [
             "安装",
-            "/zh-Hans/setup"
+            "/setup"
           ]
         ]
       ],
       [
         "Functional Widget",
-        "/zh-Hans/functional-widget"
+        "/functional-widget"
       ],
       [
         "Freezed",
-        "/zh-Hans/freezed"
+        "/freezed"
       ],
       [
         "Riverpod",
-        "/zh-Hans/riverpod"
+        "/riverpod"
       ],
       [
         "Flutter Hooks",
-        "/zh-Hans/flutter-hooks"
+        "/flutter-hooks"
       ]
     ]
   }
