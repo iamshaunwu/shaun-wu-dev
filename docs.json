@@ -1,9 +1,9 @@
 {
   "name": "shaunwu.dev",
   "theme": "#50c8f8",
-  "logo": "/assets/logo.png",
-  "logoDark": "/assets/logo-dark-bg.png",
-  "automaticallyDisplayName": false,
+  "logo": "/assets/symbol.png",
+  "logoDark": "/assets/symbol.png",
+  "automaticallyDisplayName": true,
   "sidebar": {
     "en": [
       [
