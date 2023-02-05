@@ -6,12 +6,33 @@
   "automaticallyDisplayName": false,
   "sidebar": [
     [
-      "Home",
-      "/"
+      "Getting Started",
+      [
+        [
+          "Overview",
+          "/"
+        ],
+        [
+          "Setup",
+          "/setup"
+        ]
+      ]
     ],
     [
-      "Another Page",
-      "/another-page"
+      "Functional Widget",
+      "/functional-widget"
+    ],
+    [
+      "Riverpod",
+      "/riverpod"
+    ],
+    [
+      "Freezed",
+      "/freezed"
+    ],
+    [
+      "Flutter Hooks",
+      "/flutter-hooks"
     ]
   ]
 }
