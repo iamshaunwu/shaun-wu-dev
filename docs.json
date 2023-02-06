@@ -20,20 +20,29 @@
         ]
       ],
       [
-        "Functional Widget",
-        "/functional-widget"
-      ],
-      [
-        "Freezed",
-        "/freezed"
-      ],
-      [
-        "Riverpod",
-        "/riverpod"
-      ],
-      [
-        "Flutter Hooks",
-        "/flutter-hooks"
+        "Components",
+        [
+          [
+            "Code Generation",
+            "/code-gen"
+          ],
+          [
+            "Functional Widget",
+            "/functional-widget"
+          ],
+          [
+            "Freezed",
+            "/freezed"
+          ],
+          [
+            "Riverpod",
+            "/riverpod"
+          ],
+          [
+            "Flutter Hooks",
+            "/flutter-hooks"
+          ]
+        ]
       ]
     ],
     "zh-Hans": [
@@ -47,24 +56,37 @@
           [
             "安装",
             "/setup"
+          ],
+          [
+            "代码生成",
+            "/code-gen"
           ]
         ]
       ],
       [
-        "Functional Widget",
-        "/functional-widget"
-      ],
-      [
-        "Freezed",
-        "/freezed"
-      ],
-      [
-        "Riverpod",
-        "/riverpod"
-      ],
-      [
-        "Flutter Hooks",
-        "/flutter-hooks"
+        "Components",
+        [
+          [
+            "Code Generation",
+            "/code-gen"
+          ],
+          [
+            "Functional Widget",
+            "/functional-widget"
+          ],
+          [
+            "Freezed",
+            "/freezed"
+          ],
+          [
+            "Riverpod",
+            "/riverpod"
+          ],
+          [
+            "Flutter Hooks",
+            "/flutter-hooks"
+          ]
+        ]
       ]
     ]
   }
