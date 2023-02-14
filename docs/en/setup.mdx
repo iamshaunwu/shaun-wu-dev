@@ -1,3 +1,70 @@
 # Setup
 
-1. 
+## Setting up your `pubspec.yaml` file
+
+1. Add the following packages under `dependencies`.
+
+```yaml
+  flutter_hooks: ^0.18.5+1
+  functional_widget_annotation: ^0.10.0
+  hooks_riverpod: ^2.2.0
+  json_annotation: ^4.8.0
+  riverpod_annotation: ^1.2.1
+  tuple: ^2.0.1
+```
+
+2. Add the following packages under `dev_dependencies`.
+
+```yaml
+  build_runner: ^2.1.8
+  custom_lint: ^0.2.5
+  freezed: ^2.3.2
+  functional_widget: ^0.10.1
+  json_serializable: ^6.6.1
+  riverpod_generator: ^1.2.0
+  riverpod_lint: ^1.0.1
+```
+
+3. Save the file and run `flutter pub get` to install the packages.
+
+## Setting up your `analysis_options.yaml` file
+
+(If you don't have an `analysis_options.yaml` file, create one)
+
+4. Under `analyzer`, add the following lines under analyzer:
+
+```yaml
+analyzer:
+  plugins:
+    - custom_lint
+    
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+```
+
+## Setting up your `build.yaml` file
+
+(If you don't have a `build.yaml` file, create one)
+
+5. Add the following lines.
+```yaml
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          explicit_to_json: true
+```
+
+## Installing Extensions
+
+6. To make your development experience more efficient, install the following extensions:
+
+  - **Riverpod Snippets** is a VSCode extension that provides code snippets for Riverpod and is available for Android Studio and IntelliJ as well. 
+    - [VSCode](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
+    - [Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14641-flutter-riverpod-snippets)
+
+  - **Build Runner** commands are usually run from the terminal. However, with the following extensions, it only a click or two. 
+    - [VSCode](https://marketplace.visualstudio.com/items?itemName=GaetSchwartz.build-runner)
+    - [Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14442-flutter-toolkit) (Please read the extension documentation for more information)
