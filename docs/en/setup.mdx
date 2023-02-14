@@ -1,6 +1,6 @@
 # Setup
 
-## Setting up your `pubspec.yaml` file
+## `pubspec.yaml`
 
 1. Add the following packages under `dependencies`.
 
@@ -27,9 +27,9 @@
 
 3. Save the file and run `flutter pub get` to install the packages.
 
-## Setting up your `analysis_options.yaml` file
+## `analysis_options.yaml`
 
-(If you don't have an `analysis_options.yaml` file, create one)
+(Create one at the root folder of your project if you do not have this file.)
 
 4. Under `analyzer`, add the following lines under analyzer:
 
@@ -43,9 +43,9 @@ analyzer:
     - "**/*.freezed.dart"
 ```
 
-## Setting up your `build.yaml` file
+## `build.yaml`
 
-(If you don't have a `build.yaml` file, create one)
+(Create one at the root folder of your project if you do not have this file.)
 
 5. Add the following lines.
 ```yaml
@@ -57,14 +57,14 @@ targets:
           explicit_to_json: true
 ```
 
-## Installing Extensions
+## IDE Extensions
 
-6. To make your development experience more efficient, install the following extensions:
+To make your development experience more efficient, install the following extensions:
 
-  - **Riverpod Snippets** is a VSCode extension that provides code snippets for Riverpod and is available for Android Studio and IntelliJ as well. 
-    - [VSCode](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
-    - [Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14641-flutter-riverpod-snippets)
+6. **Riverpod Snippets** is a VSCode extension that provides code snippets for Riverpod and is available for Android Studio and IntelliJ as well. 
+  - [VSCode](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
+  - [Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14641-flutter-riverpod-snippets)
 
-  - **Build Runner** commands are usually run from the terminal. However, with the following extensions, it only a click or two. 
-    - [VSCode](https://marketplace.visualstudio.com/items?itemName=GaetSchwartz.build-runner)
-    - [Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14442-flutter-toolkit) (Please read the extension documentation for more information)
+7. **Build Runner** commands are usually run from the terminal. However, with the following extensions, it only a click or two. 
+  - [Build Runner for VSCode](https://marketplace.visualstudio.com/items?itemName=GaetSchwartz.build-runner)
+  - [Flutter Toolkit for Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14442-flutter-toolkit)
