@@ -1,1 +1,6 @@
 include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - always_specify_types: true
+    - always_declare_return_types: true
