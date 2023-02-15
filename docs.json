@@ -7,25 +7,25 @@
   "sidebar": {
     "en": [
       [
+        "About",
+        "/"
+      ],
+      [
         "Getting Started",
         [
           [
-            "Overview",
-            "/"
-          ],
-          [
             "Setup",
             "/setup"
+          ],
+          [
+            "What's code generation?",
+            "/code-gen"
           ]
         ]
       ],
       [
         "Components",
         [
-          [
-            "Code Generation",
-            "/code-gen"
-          ],
           [
             "Functional Widget",
             "/functional-widget"
@@ -47,18 +47,18 @@
     ],
     "zh-Hans": [
       [
+        "关于",
+        "/"
+      ],
+      [
         "开始上手",
         [
-          [
-            "概览",
-            "/"
-          ],
           [
             "安装",
             "/setup"
           ],
           [
-            "代码生成",
+            "什么是代码生成?",
             "/code-gen"
           ]
         ]
@@ -66,10 +66,6 @@
       [
         "Components",
         [
-          [
-            "Code Generation",
-            "/code-gen"
-          ],
           [
             "Functional Widget",
             "/functional-widget"
