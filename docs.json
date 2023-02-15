@@ -4,16 +4,17 @@
   "logo": "/assets/symbol.png",
   "logoDark": "/assets/symbol.png",
   "automaticallyDisplayName": true,
-  "anchors": [
-    {
-      "title": "Homepage",
-      "icon": "house",
-      "link": "https://docs.page/iamshaunwu/shaun-wu-dev",
-      "target": "_self"
-    }
-  ],
   "sidebar": {
     "en": [
+      [
+        "Welcome",
+        [
+          [
+            "About",
+            "/"
+          ]
+        ]
+      ],
       [
         "Getting Started",
         [
