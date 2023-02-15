@@ -8,7 +8,8 @@
     {
       "title": "Homepage",
       "icon": "house",
-      "link": "https://docs.page/iamshaunwu/shaun-wu-dev"
+      "link": "https://docs.page/iamshaunwu/shaun-wu-dev",
+      "target": "_self"
     }
   ],
   "sidebar": {
