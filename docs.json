@@ -32,20 +32,20 @@
         "Components",
         [
           [
-            "Functional Widget",
-            "/functional-widget"
+            "Riverpod",
+            "/riverpod"
           ],
           [
             "Freezed",
             "/freezed"
           ],
           [
-            "Riverpod",
-            "/riverpod"
-          ],
-          [
             "Flutter Hooks",
             "/flutter-hooks"
+          ],
+          [
+            "Functional Widget",
+            "/functional-widget"
           ]
         ]
       ]
@@ -77,20 +77,20 @@
         "Components",
         [
           [
-            "Functional Widget",
-            "/functional-widget"
+            "Riverpod",
+            "/riverpod"
           ],
           [
             "Freezed",
             "/freezed"
           ],
           [
-            "Riverpod",
-            "/riverpod"
-          ],
-          [
             "Flutter Hooks",
             "/flutter-hooks"
+          ],
+          [
+            "Functional Widget",
+            "/functional-widget"
           ]
         ]
       ]
