@@ -1,4 +1,4 @@
-<Image
+<!-- <Image
   src="/assets/symbol.png"
   alt="shaunwu.dev"
   height="100"
@@ -16,4 +16,75 @@ Shaun Wu is a bilingual Singapore-based Flutter Developer. Projects he has previ
 
 <Info>shaunwu.dev is a supplementary resource guide for Flutter developers to learn more about Riverpod and a suite of recommend go-together-with packages. The author's perspectives and opinions expressed on this website are based on personal experience and technical knowledge.</Info>
 
-<center><font size = "2">Copyright &copy; 2023 by Shaun Wu. All Rights Reserved.</font></center>
+<center><font size = "2">Copyright &copy; 2023 by Shaun Wu. All Rights Reserved.</font></center> -->
+
+# Setup
+
+## pubspec.yaml
+
+1. Add the following packages under `dependencies`.
+
+```yaml
+  flutter_hooks: ^0.18.5+1
+  functional_widget_annotation: ^0.10.0
+  hooks_riverpod: ^2.2.0
+  json_annotation: ^4.8.0
+  riverpod_annotation: ^1.2.1
+  tuple: ^2.0.1
+```
+
+2. Add the following packages under `dev_dependencies`.
+
+```yaml
+  build_runner: ^2.1.8
+  custom_lint: ^0.2.5
+  freezed: ^2.3.2
+  functional_widget: ^0.10.1
+  json_serializable: ^6.6.1
+  riverpod_generator: ^1.2.0
+  riverpod_lint: ^1.0.1
+```
+
+3. Save the file and run `flutter pub get` to install the packages.
+
+## analysis_options.yaml
+
+<Info>Create one at the root folder of your project if you do not have this file.</Info>
+
+4. Under `analyzer`, add the following lines under analyzer:
+
+```yaml
+analyzer:
+  plugins:
+    - custom_lint
+    
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+```
+
+## build.yaml
+
+<Info>Create one at the root folder of your project if you do not have this file.</Info>
+
+5. Add the following lines.
+```yaml
+targets:
+  $default:
+    builders:
+      json_serializable:
+        options:
+          explicit_to_json: true
+```
+
+## IDE Extensions
+
+To make your development experience more efficient, install the following extensions:
+
+6. **Riverpod Snippets** is a VSCode extension that provides code snippets for Riverpod and is available for Android Studio and IntelliJ as well. 
+    - [VSCode](https://marketplace.visualstudio.com/items?itemName=robert-brunhage.flutter-riverpod-snippets)
+    - [Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14641-flutter-riverpod-snippets)
+
+7. `build_runner` is used to generate Dart codes and files. Its commands are usually run from the terminal. However, with the following extensions, it just a click or two away. 
+    - [Dart build_runner for VSCode](https://marketplace.visualstudio.com/items?itemName=Kaiqun.build-runner)
+    - [Flutter Toolkit for Android Studio/IntelliJ](https://plugins.jetbrains.com/plugin/14442-flutter-toolkit)
