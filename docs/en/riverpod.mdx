@@ -1,1 +1,9 @@
 # Riverpod
+
+avoid uncontrolledproviderscope, instead on MainApp(),
+- use .when in  for await/async provider
+- use .isLoading for multiple await/async providers
+- use ref.watch to watch multiple providers needed throughout app lifecycle
+- when calling these providers, add .requireValue to throw error if provider is null
+
+avoid building widgets in providers
